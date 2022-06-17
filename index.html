@@ -1,26 +1,4 @@
-<?php
-if(isset($_POST['process'])){
 
-    $host= 'localhost'; 
-    $user= 'root';
-    $pass= ''; 
-    $db= 'portfolio';
-    $connect= MYSQLI_CONNECT($host, $user, $pass, $db) or die('could not connect');
-
-    $name=@$_POST['name'];
-    $email=@$_POST['email'];
-    $number=@$_POST['number'];
-    $subject=@$_POST['subject'];
-
-    $sql="INSERT INTO form (id, name, email, number, subject) VALUES ('', '$name','$email', '$number', '$subject')";
-    $run=$connect->query($sql);
-
-
-}
-
-
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
