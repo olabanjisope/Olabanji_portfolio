@@ -390,7 +390,7 @@
 
 
 
-@media screen and (max-width:871px){
+@media screen and (max-width:600px){
 
     html,body{
         scroll-behavior: smooth;
