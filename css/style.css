@@ -15,7 +15,7 @@
         background: gray;
         width:10.1%;
         position: fixed;
-        height: 100vh;
+        height: 100%;
     }
     .pics{
         width: 90%;
@@ -390,12 +390,8 @@
 
 
 
-/*@media screen and (max-width:600px){*/
-    @media 
-    (min-device-width: 800px) 
-    and (max-device-width: 1280px) {
-  
-  
+@media screen and (max-width:480px){
+
 
     html,body{
         scroll-behavior: smooth;
