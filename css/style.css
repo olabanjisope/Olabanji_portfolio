@@ -350,6 +350,10 @@
             height: 30px;
             border: 2px solid #c1d0cb;      
             margin: 5px 0 0 10px;
+            background-image: url(../images/img39.jpg);
+            background-position: center;
+            background-size: cover;
+            border-radius: 15px;
         }
         
         
@@ -396,6 +400,7 @@
     
         
         .container .profile_picture{
+            background-image: url(../images/img18.jpg);
             width: 70%;
             height: 300px;
             border: 2px solid green;
