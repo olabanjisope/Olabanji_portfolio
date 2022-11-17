@@ -126,6 +126,7 @@
         width: 40%;
         background: #fff;
         opacity: 0.5;
+        border-radius: 6%;
     
     }
     
@@ -347,8 +348,7 @@
         
         .pics{
             width: 10%;
-            height: 30px;
-            border: 2px solid #c1d0cb;      
+            height: 30px;   
             margin: 5px 0 0 10px;
             background-image: url(../images/img39.jpg);
             background-position: center;
@@ -401,9 +401,9 @@
         
         .container .profile_picture{
             background-image: url(../images/img18.jpg);
+            border-radius: 20px;
             width: 70%;
             height: 300px;
-            border: 2px solid green;
             margin: auto;
         }
         
@@ -469,6 +469,7 @@
             opacity: 0.5;
             margin: auto;
             margin-bottom:10px;
+            border-radius:2%;
         
         }
         
